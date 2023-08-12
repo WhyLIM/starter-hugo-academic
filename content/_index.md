@@ -105,32 +105,38 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - date_end: ''
+        - certificate_url: ''
+          date_end: ''
           date_start: '2020-11-21'
           description: |2-
             For successfully completing the project "Biotechnology Innovation and Practice"
 
-            ![Biotechnology Innovation and Practice](../assets/media/icons/brands/csha.jpg)
-            <img src="../assets/media/icons/brands/csha.jpg"></img>
-          organization: ColdSpringHarbor-Asia
+            ![Biotechnology Innovation and Practice](csha.jpg)
+          organization: Cold Spring Harbor Asia
           organization_url: https://www.csh-asia.org/
           title: Biotechnology Innovation and Practice
           url: ''
-        - certificate_url: https://www.edx.org
+        - certificate_url: ''
           date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
+          date_start: '2019-09-01'
+          description: |2-
+            Selected as "Outstanding Volunteer of Suzhou City" during the summer volunteer service event at Suzhou Railway Station in 2019.
+
+            ![Outstanding Volunteer of Suzhou City](zyz.jpg)
+          organization: Suzhou Volunteers Association
+          organization_url: http://szzyz.xcb.suzhou.com.cn/
+          title: Outstanding Volunteer of Suzhou City
+          url: ''
+        - certificate_url: ''
+          date_end: ''
+          date_start: '2020-10-18'
+          description: |2-
+            Achieved Second Prize in the Huawei China University Student ICT Competition 2020 Jiangsu Provincial Preliminary Contest (Undergraduate Cloud Track).
+
+            ![Second Prize in the Huawei ICT Competition 2020](ict.jpg)
+          organization: HUAWEI
+          organization_url: https://www.huawei.com/cn/
+          title: 'Second Prize in the Huawei ICT Competition 2020'
           url: ''
     design:
       columns: '2'

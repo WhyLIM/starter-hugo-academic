@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
+title: 
 date: 2022-10-24
 type: landing
 
@@ -16,41 +16,29 @@ sections:
       title: Skills
       items:
         - name: Python
-          description: 70%
+          description: Simple and commonly used programming language
           icon: python
           icon_pack: fab
         - name: R
-          description: 70%
+          description: Simpler but memory-intensive programming language
           icon: r-project
           icon_pack: fab
-        - name: HTML
-          description: 30%
-          icon: html5
+        - name: VUE3
+          description: A web framework I'm currently learning
+          icon: vuejs
           icon_pack: fab
-        - name: CSS
-          description: 30%
-          icon: css3-alt
-          icon_pack: fab
-        - name: JavaScript
-          description: 30%
-          icon: square-js
-          icon_pack: fab
-        - name: Photography
-          description: 20%
-          icon: camera-retro
-          icon_pack: fas
         - name: Windows
-          description: 50%
+          description: Proficient in software installation and uninstallation
           icon: windows
           icon_pack: fab
         - name: Linux
-          description: 50%
+          description: I will always support [**Ubuntu**](https://ubuntu.com/) and [**Zorin**](https://zorin.com/os/), rather than *RedHat* or *CentOS*
           icon: linux
           icon_pack: fab
-        - name: Android
-          description: 100%
-          icon: android
-          icon_pack: fab
+        - name: Photography
+          description: Hobby just getting started
+          icon: camera-retro
+          icon_pack: fas
     # design:
     #   background:
     #     gradient_end: '#1976d2'
@@ -205,17 +193,7 @@ sections:
   - block: collection
     id: featured
     content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
-  - block: collection
-    content:
-      title: Recent Publications
+      title: Publications
       text: |-
         {{% callout note %}}
         Quickly discover relevant content by [filtering publications](./publication/).
@@ -223,25 +201,39 @@ sections:
       filters:
         folders:
           - publication
-        exclude_featured: true
+        featured_only: true
     design:
       columns: '2'
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
+      view: card
+#   - block: collection
+#     content:
+#       title: Recent Publications
+#       text: |-
+#         {{% callout note %}}
+#         Quickly discover relevant content by [filtering publications](./publication/).
+#         {{% /callout %}}
+#       filters:
+#         folders:
+#           - publication
+#         exclude_featured: true
+#     design:
+#       columns: '2'
+#       view: citation
+#   - block: collection
+#     id: talks
+#     content:
+#       title: Recent & Upcoming Talks
+#       filters:
+#         folders:
+#           - event
+#     design:
+#       columns: '2'
+#       view: compact
+#   - block: tag_cloud
+#     content:
+#       title: Popular Topics
+#     design:
+#       columns: '2'
   - block: contact
     id: contact
     content:
@@ -250,33 +242,24 @@ sections:
       text: |-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
+      email: mli.bio@outlook.com
+    #   phone: 888 888 88 88
+    #   appointment_url: 'https://calendly.com'
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+        street: No. 106, Zhongshan 2nd Road
+        city: Guangzhou
+        region: Guangdong
+        postcode: '510000'
+        country: China
+        country_code: CN
+    #   directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+        - 'Monday to Friday, 8:30 to 17:30'
       contact_links:
-        - icon: twitter
+        - icon: weixin
           icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
+          name: WeChat Me
+          link: 'https://u.wechat.com/EF3f8Xr5QG8BxZ_F422d_xA'
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider

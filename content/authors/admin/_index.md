@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: Min Li
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Min
+last_name: Li
 
 # Status emoji
 status:
@@ -14,34 +14,32 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: BSc in Bioinformatics
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Soochow University
+    url: http://eng.suda.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include Network Analysis, Molecular Docking, scRNA-seq data Analysis and Tool Development.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Network Analysis
+  - Molecular Docking
+  - scRNA-seq Analysis
+  - Tool Development
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: Data Engineer
+      institution: Guangdong Provincial People's Hospital (GDPH)
+      year: 2023
+    - course: BSc in Bioinformatics
+      institution: Soochow University
+      year: 2022
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -50,22 +48,25 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
+    link: 'mailto:mli.bio@outlook.com'
+#   - icon: twitter
+#     icon_pack: fab
+#     link: https://twitter.com/GeorgeCushen
+#     label: Follow me on Twitter
+#     display:
+#       header: true
+#   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+#     icon_pack: fas
+#     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  - icon: researchgate
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://www.researchgate.net/profile/Min-Li-331
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://github.com/WhyLIM
+#   - icon: linkedin
+#     icon_pack: fab
+#     link: https://www.linkedin.com/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -80,5 +81,5 @@ email: ''
 highlight_name: true
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Min Li (李旻) received a Bachelor of Science degree from [Soochow University](http://eng.suda.edu.cn/), majoring in bioinformatics, under the tutelage of Professor [Guang Hu](https://www.researchgate.net/profile/Guang-Hu-3), and is currently working as a data engineer in the team of [Dr. Xueli Zhang](https://www.researchgate.net/profile/Xueli-Zhang), PI of [Guangdong Provincial People's Hospital (GDPH)](https://www.gdghospital.org.cn/en/). His research interests include but are not limited to: 1) Construction and analysis of interaction networks; 2) Protein molecular modeling and molecular docking; 3) Analysis of single-cell sequencing data; 4) Development of biomarker databases.
 {style="text-align: justify;"}

@@ -7,7 +7,7 @@ title: 'From big data to complex network: a navigation through the maze of drugâ
 authors:
   - Ze Wang
   - admin
-  - MuYun Tang
+  - Muyun Tang
   - Guang Hu
 
 # Author notes (optional)
@@ -76,6 +76,9 @@ image:
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 # slides: example
+  design:
+    spacing:
+        max-width: 960px
 ---
 
 {{% callout note %}}

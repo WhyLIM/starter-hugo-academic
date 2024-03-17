@@ -1,3 +1,5 @@
+# Academic Site
+
 This is my personal resume site create by [*Hugo Academic Theme*](https://github.com/wowchemy/starter-hugo-academic) template.
 
 For local edit, please install:

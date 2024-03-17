@@ -28,7 +28,7 @@ publishDate: '2023-01-19T00:00:00Z'
 publication_types: ['6']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Big Data Analytics in Chemoinformatics and Bioinformatics*
+publication: In ***Big Data Analytics in Chemoinformatics and Bioinformatics***
 # publication_short: In *ICW*
 
 abstract: Investigation of drug–target interaction is important in drug discovery and development. Increasing evidence has shown drug–target interaction emerges from a holistic network of drug molecules and their complete targets, rather than the traditional one-bullet-one-target model. In this chapter, we first reviewed the important data sources for the construction and prediction of drug–target interactions, including drug screening, active ingredient profiling, target information mining. Then, similarity-based and machine learning-based algorithms in the construction, prediction, and analysis of drug–target interactions, as well as some important computational tools and methods in network construction and analysis were introduced. Finally, we concluded this chapter with some perspectives on future directions in both database and network algorithms. In summary, as a paradigm shift, integrating big data and complex network holds the promise to deepen our understanding of the ever-expanding universe of drug molecules, targets, and their interactions.
@@ -36,10 +36,15 @@ abstract: Investigation of drug–target interaction is important in drug discov
 # Summary. An optional shortened abstract.
 summary: This chapter explores drug-target interactions in modern drug discovery, highlighting a shift from one-bullet-one-target to a holistic network approach. It reviews data sources, similarity-based and machine learning algorithms, and computational tools for interaction prediction and network analysis. Emphasizing the integration of big data and complex networks, the chapter underscores the potential to enhance our understanding of drug molecules, targets, and interactions.
 
-tags: ['Drug Discovery', 'Drug Repurposing', 'Drug–Target Interaction', 'Complex Network Theory']
+
+tags:
+- Drug Discovery
+- Drug Repurposing
+- Drug–Target Interaction
+- Complex Network Theory
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
 # links:

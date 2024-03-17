@@ -1,16 +1,36 @@
 ---
-title: "An example journal article"
+title: "CBD2: A functional biomarker database for colorectal cancer"
 authors:
+- Xueli Zhang
 - admin
-- Robert Ford
+- Siting Ye
+- Ke Shen
+- Haining Yuan
+- Shoaib Bakhtyar
+- Qiliang Peng
+- Yongsheng Liu
+- Yingying Wang
+- Manshi Li
+- Chi Zhang
+- Yixin Wang
+- Xiaohe Bai
+- Shunming Liu
+- Ke Zhao
+- Bairong Shen
+- Dirk Repsilber
+- Guang Hu
+- Hong Zhang
+- Xiao-Feng Sun
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
-date: "2015-09-01T00:00:00Z"
-doi: ""
+- "Equal contribution"
+- "Equal contribution"
+date: "2023-12-04T00:00:00Z"
+doi: "10.1002/imt2.155"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2023-12-04T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -19,23 +39,25 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "***iMeta**, 3*(1)"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: The rapidly evolving landscape of biomarkers for colorectal cancer (CRC) necessitates an integrative, updated repository. In response, we constructed the Colorectal Cancer Biomarker Database (CBD), which collected and displayed the curated biomedicine information for 870 CRC biomarkers in the previous study. Building on CBD, we have now developed CBD2, which includes information on 1569 newly reported biomarkers derived from different biological sources (DNA, RNA, protein, and others) and clinical applications (diagnosis, treatment, and prognosis). CBD2 also incorporates information on nonbiomarkers that have been identified as unsuitable for use as biomarkers in CRC. A key new feature of CBD2 is its network analysis function, by which users can investigate the visible and topological network between biomarkers and identify their relevant pathways. CBD2 also allows users to query a series of chemicals, drug combinations, or multiple targets, to enable multidrug, multitarget, multipathway analyses, toward facilitating the design of polypharmacological treatments for CRC. CBD2 is freely available at http://www.eyeseeworld.com/cbd.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: CBD2 is an updated database for colorectal cancer (CRC) biomarkers, expanding the original collection to 1569 new biomarkers across DNA, RNA, protein, and more, plus data on non-viable biomarkers. It features network analysis for exploring biomarker relationships and supports queries for chemicals and drug combinations, aiding in polypharmacological treatment design. CBD2 is free to use and aims to enhance CRC research and treatment strategies.
 
 tags:
-- Source Themes
-featured: false
+- Database
+- Biomarker
+
+featured: true
 
 # links:
 # - name: ""
 #   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
+url_pdf: 'https://onlinelibrary.wiley.com/doi/epdf/10.1002/imt2.155'
+url_code: 'https://github.com/WhyLIM/CBD'
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -46,7 +68,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: 'Workflow of CBD2'
   focal_point: ""
   preview_only: false
 
@@ -62,15 +84,7 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ''
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
+<!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). -->

@@ -96,6 +96,28 @@ sections:
       items:
         - certificate_url: ''
           date_end: ''
+          date_start: '2023-12-07'
+          description: |2-
+            Successfully collaborated in a team to replicate a complex research paper, ***ranking 11th among 131 participating teams***.
+
+            ![First BIO-OS Open Source Open Contest](fbosoc.jpg)
+          organization: ByteDance
+          organization_url: https://www.bytedance.com/en/
+          title: The 11th place in the Paper Reproduction Challenge of the First BIO-OS Open Source Open Competition
+          url: ''
+        - certificate_url: ''
+          date_end: ''
+          date_start: '2023-12-02'
+          description: |2-
+            Achieved ***Second Prize*** in the 2023 Guangdong Biomedical Big Data Analysis Community Innovation Competition.
+
+            ![2023 Guangdong Biomedical Big Data Analysis Community Innovation Competition](gbbdacic.jpg)
+          organization: Guangdong Bioinformatics Society
+          organization_url: http://gdbs.org.cn/index.html
+          title: Second Prize in the 2023 Guangdong Biomedical Big Data Analysis Community Innovation Competition
+          url: ''
+        - certificate_url: ''
+          date_end: ''
           date_start: '2020-11-21'
           description: |2-
             For successfully completing the project "Biotechnology Innovation and Practice"
@@ -107,6 +129,17 @@ sections:
           url: ''
         - certificate_url: ''
           date_end: ''
+          date_start: '2020-10-18'
+          description: |2-
+            Achieved ***Second Prize*** in the Huawei China University Student ICT Competition 2020 Jiangsu Provincial Preliminary Contest (***Undergraduate Cloud Track***).
+
+            ![Second Prize in the Huawei ICT Competition 2020](ict.jpg)
+          organization: HUAWEI
+          organization_url: https://www.huawei.com/cn/
+          title: 'Second Prize in the Huawei ICT Competition 2020'
+          url: ''
+        - certificate_url: ''
+          date_end: ''
           date_start: '2019-09-01'
           description: |2-
             Selected as "Outstanding Volunteer of Suzhou City" during the summer volunteer service event at Suzhou Railway Station in 2019.
@@ -115,17 +148,6 @@ sections:
           organization: Suzhou Volunteers Association
           organization_url: http://szzyz.xcb.suzhou.com.cn/
           title: Outstanding Volunteer of Suzhou City
-          url: ''
-        - certificate_url: ''
-          date_end: ''
-          date_start: '2020-10-18'
-          description: |2-
-            Achieved Second Prize in the Huawei China University Student ICT Competition 2020 Jiangsu Provincial Preliminary Contest (Undergraduate Cloud Track).
-
-            ![Second Prize in the Huawei ICT Competition 2020](ict.jpg)
-          organization: HUAWEI
-          organization_url: https://www.huawei.com/cn/
-          title: 'Second Prize in the Huawei ICT Competition 2020'
           url: ''
     design:
       columns: '2'
@@ -172,11 +194,11 @@ sections:
     #     {{% callout note %}}
     #     Quickly discover relevant content by [filtering publications](./publication/).
     #     {{% /callout %}}
-      count: 1
+      count: 2
       filters:
         folders:
           - publication
-        featured_only: false
+        featured_only: true
     design:
       columns: '2'
       view: card
@@ -209,40 +231,40 @@ sections:
 #       title: Popular Topics
 #     design:
 #       columns: '2'
-  - block: collection
-    id: posts
-    content:
-      title: Recent Posts
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: compact
-      columns: '2'
+#   - block: collection
+#     id: posts
+#     content:
+#       title: Recent Posts
+#       subtitle: ''
+#       text: ''
+#       # Choose how many pages you would like to display (0 = all pages)
+#       count: 5
+#       # Filter on criteria
+#       filters:
+#         folders:
+#           - post
+#         author: ""
+#         category: ""
+#         tag: ""
+#         exclude_featured: false
+#         exclude_future: false
+#         exclude_past: false
+#         publication_type: ""
+#       # Choose how many pages you would like to offset by
+#       offset: 0
+#       # Page order: descending (desc) or ascending (asc) date.
+#       order: desc
+#     design:
+#       # Choose a layout view
+#       view: compact
+#       columns: '2'
   - block: contact
     id: contact
     content:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        Contact me if you have any interest.
       # Contact (add or remove contact options as necessary)
       email: mli.bio@outlook.com
     #   phone: 888 888 88 88
@@ -260,7 +282,7 @@ sections:
       contact_links:
         - icon: weixin
           icon_pack: fab
-          name: WeChat Me
+          name: WeChat Me ![QRcode](wechat.png)
           link: 'https://u.wechat.com/EF3f8Xr5QG8BxZ_F422d_xA'
       # Automatically link email and phone or display as text?
       autolink: true

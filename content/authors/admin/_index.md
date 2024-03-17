@@ -22,13 +22,13 @@ organizations:
     url: http://eng.suda.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Network Analysis, Molecular Docking, scRNA-seq data Analysis and Tool Development.
+bio: My research interests include Network Analysis, Molecular Docking, Multi-omics Data Analysis and Tool Development.
 
 # Interests to show in About widget
 interests:
   - Network Analysis
   - Molecular Docking
-  - scRNA-seq Analysis
+  - Multi-omics Data Analysis
   - Tool Development
 
 # Education to show in About widget
@@ -80,8 +80,7 @@ email: ''
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-
-Min Li (李旻) received a Bachelor of Science degree from [Soochow University](http://eng.suda.edu.cn/), majoring in bioinformatics, under the tutelage of Professor [**Guang Hu**](https://www.researchgate.net/profile/Guang-Hu-3), and is currently working as a data engineer in the team of Dr. [**Xueli Zhang**](https://www.researchgate.net/profile/Xueli-Zhang), PI of [Guangdong Provincial People's Hospital (GDPH)](https://www.gdghospital.org.cn/en/). 
+Min Li (李旻) received a Bachelor of Science degree from [Soochow University](http://eng.suda.edu.cn/), majoring in bioinformatics, under the tutelage of Professor [**Guang Hu**](https://www.researchgate.net/profile/Guang-Hu-3), and is currently working as a data engineer in the team of Dr. [**Xueli Zhang**](https://www.researchgate.net/profile/Xueli-Zhang), PI of [Guangdong Provincial People&#39;s Hospital (GDPH)](https://www.gdghospital.org.cn/en/).
 {style="text-align: justify;"}
 
 His research interests are mainly in the fields of life sciences & computer science, focusing on data analysis and exploration at the biomolecular level.

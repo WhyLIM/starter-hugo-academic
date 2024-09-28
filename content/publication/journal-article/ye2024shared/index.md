@@ -36,7 +36,7 @@ publishDate: "2024-07-22T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "***npj Aging**, 10*(1), 36"
+publication: "***NPJ Aging**, 10*(1), 36"
 publication_short: ""
 
 abstract: The comorbidity of Alzheimer’s disease (AD) and age-related macular degeneration (AMD) has been established in clinical and genetic studies. There is growing interest in determining the shared environmental factors associated with both conditions. Recent advancements in record linkage techniques enable us to identify the contributing factors to AD and AMD from a wide range of variables. As such, we first constructed a knowledge graph based on the literature, which included all statistically significant risk factors for AD and AMD. An environment-wide association study (EWAS) was conducted to assess the contribution of various environmental factors to the comorbidity of AD and AMD based on the UK biobank. Based on the conditional Q-Q plots and Bayesian algorithm, several shared environmental factors were identified, which could be categorized into the domains of health condition, biological sample parameters, body index, and attendance availability. Finally, we generated a shared etiology landscape for AD and AMD by combining existing knowledge with our novel findings.
@@ -83,5 +83,4 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ''
 ---
-
 <!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). -->

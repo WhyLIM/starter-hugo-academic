@@ -81,111 +81,6 @@ sections:
           description: Study specialized courses in bioinformatics.
     design:
       columns: '2'
-  - block: accomplishments
-    content:
-      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
-      subtitle:
-      # Date format: https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `item` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - certificate_url: ''
-          date_end: ''
-          date_start: '2023-12-07'
-          description: |2-
-            Successfully collaborated in a team to replicate a complex research paper, ***ranking 11th among 131 participating teams***.
-
-            ![First BIO-OS Open Source Open Contest](fbosoc.jpg)
-          organization: ByteDance
-          organization_url: https://www.bytedance.com/en/
-          title: The 11th place in the Paper Reproduction Challenge of the First BIO-OS Open Source Open Competition
-          url: ''
-        - certificate_url: ''
-          date_end: ''
-          date_start: '2023-12-02'
-          description: |2-
-            Achieved ***Second Prize*** in the 2023 Guangdong Biomedical Big Data Analysis Community Innovation Competition.
-
-            ![2023 Guangdong Biomedical Big Data Analysis Community Innovation Competition](gbbdacic.jpg)
-          organization: Guangdong Bioinformatics Society
-          organization_url: http://gdbs.org.cn/index.html
-          title: Second Prize in the 2023 Guangdong Biomedical Big Data Analysis Community Innovation Competition
-          url: ''
-        - certificate_url: ''
-          date_end: ''
-          date_start: '2020-11-21'
-          description: |2-
-            For successfully completing the project "Biotechnology Innovation and Practice"
-
-            ![Biotechnology Innovation and Practice](csha.jpg)
-          organization: Cold Spring Harbor Asia
-          organization_url: https://www.csh-asia.org/
-          title: Biotechnology Innovation and Practice
-          url: ''
-        - certificate_url: ''
-          date_end: ''
-          date_start: '2020-10-18'
-          description: |2-
-            Achieved ***Second Prize*** in the Huawei China University Student ICT Competition 2020 Jiangsu Provincial Preliminary Contest (***Undergraduate Cloud Track***).
-
-            ![Second Prize in the Huawei ICT Competition 2020](ict.jpg)
-          organization: HUAWEI
-          organization_url: https://www.huawei.com/cn/
-          title: 'Second Prize in the Huawei ICT Competition 2020'
-          url: ''
-        - certificate_url: ''
-          date_end: ''
-          date_start: '2019-09-01'
-          description: |2-
-            Selected as "Outstanding Volunteer of Suzhou City" during the summer volunteer service event at Suzhou Railway Station in 2019.
-
-            ![Outstanding Volunteer of Suzhou City](zyz.jpg)
-          organization: Suzhou Volunteers Association
-          organization_url: http://szzyz.xcb.suzhou.com.cn/
-          title: Outstanding Volunteer of Suzhou City
-          url: ''
-    design:
-      columns: '2'
-#   - block: portfolio
-#     id: projects
-#     content:
-#       title: Projects
-#       filters:
-#         folders:
-#           - project
-#       # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-#       default_button_index: 0
-#       # Filter toolbar (optional).
-#       # Add or remove as many filters (`filter_button` instances) as you like.
-#       # To show all items, set `tag` to "*".
-#       # To filter by a specific tag, set `tag` to an existing tag name.
-#       # To remove the toolbar, delete the entire `filter_button` block.
-#       buttons:
-#         - name: All
-#           tag: '*'
-#         - name: Deep Learning
-#           tag: Deep Learning
-#         - name: Other
-#           tag: Demo
-#     design:
-#       # Choose how many columns the section has. Valid values: '1' or '2'.
-#       columns: '1'
-#       view: showcase
-#       # For Showcase view, flip alternate rows?
-#       flip_alt_rows: false
-#   - block: markdown
-#     content:
-#       title: Gallery
-#       subtitle: ''
-#       text: |-
-#         {{< gallery album="demo" >}}
-#     design:
-#       columns: '1'
   - block: collection
     id: featured
     content:
@@ -258,6 +153,114 @@ sections:
 #       # Choose a layout view
 #       view: compact
 #       columns: '2'
+  - block: portfolio
+    id: projects
+    content:
+      title: Projects
+      filters:
+        folders:
+          - project
+      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+      default_button_index: 0
+      # Filter toolbar (optional).
+      # Add or remove as many filters (`filter_button` instances) as you like.
+      # To show all items, set `tag` to "*".
+      # To filter by a specific tag, set `tag` to an existing tag name.
+      # To remove the toolbar, delete the entire `filter_button` block.
+      buttons:
+        - name: All
+          tag: '*'
+        - name: Databases
+          tag: Databases
+        - name: Tools
+          tag: Tools
+        - name: Other
+          tag: Other
+    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '1'
+      view: showcase
+      # For Showcase view, flip alternate rows?
+      flip_alt_rows: false
+#   - block: markdown
+#     content:
+#       title: Gallery
+#       subtitle: ''
+#       text: |-
+#         {{< gallery album="demo" >}}
+#     design:
+#       columns: '1'
+  - block: accomplishments
+    id: accomplishments
+    content:
+      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+      title: 'Accomplish&shy;ments'
+      subtitle:
+      # Date format: https://wowchemy.com/docs/customization/#date-format
+      date_format: Jan 2006
+      # Accomplishments.
+      #   Add/remove as many `item` blocks below as you like.
+      #   `title`, `organization`, and `date_start` are the required parameters.
+      #   Leave other parameters empty if not required.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - certificate_url: ''
+          date_end: ''
+          date_start: '2023-12-07'
+          description: |2-
+            Successfully collaborated in a team to replicate a complex research paper, ***ranking 11th among 131 participating teams***.
+
+            ![First BIO-OS Open Source Open Contest](fbosoc.jpg)
+          organization: ByteDance
+          organization_url: https://www.bytedance.com/en/
+          title: The 11th place in the Paper Reproduction Challenge of the First BIO-OS Open Source Open Competition
+          url: ''
+        - certificate_url: ''
+          date_end: ''
+          date_start: '2023-12-02'
+          description: |2-
+            Achieved ***Second Prize*** in the 2023 Guangdong Biomedical Big Data Analysis Community Innovation Competition.
+
+            ![2023 Guangdong Biomedical Big Data Analysis Community Innovation Competition](gbbdacic.jpg)
+          organization: Guangdong Bioinformatics Society
+          organization_url: http://gdbs.org.cn/index.html
+          title: Second Prize in the 2023 Guangdong Biomedical Big Data Analysis Community Innovation Competition
+          url: ''
+        - certificate_url: ''
+          date_end: ''
+          date_start: '2020-11-21'
+          description: |2-
+            For successfully completing the project "Biotechnology Innovation and Practice"
+
+            ![Biotechnology Innovation and Practice](csha.jpg)
+          organization: Cold Spring Harbor Asia
+          organization_url: https://www.csh-asia.org/
+          title: Biotechnology Innovation and Practice
+          url: ''
+        - certificate_url: ''
+          date_end: ''
+          date_start: '2020-10-18'
+          description: |2-
+            Achieved ***Second Prize*** in the Huawei China University Student ICT Competition 2020 Jiangsu Provincial Preliminary Contest (***Undergraduate Cloud Track***).
+
+            ![Second Prize in the Huawei ICT Competition 2020](ict.jpg)
+          organization: HUAWEI
+          organization_url: https://www.huawei.com/cn/
+          title: 'Second Prize in the Huawei ICT Competition 2020'
+          url: ''
+        - certificate_url: ''
+          date_end: ''
+          date_start: '2019-09-01'
+          description: |2-
+            Selected as "Outstanding Volunteer of Suzhou City" during the summer volunteer service event at Suzhou Railway Station in 2019.
+
+            ![Outstanding Volunteer of Suzhou City](zyz.jpg)
+          organization: Suzhou Volunteers Association
+          organization_url: http://szzyz.xcb.suzhou.com.cn/
+          title: Outstanding Volunteer of Suzhou City
+          url: ''
+    design:
+      columns: '2'
   - block: contact
     id: contact
     content:

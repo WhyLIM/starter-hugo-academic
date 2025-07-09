@@ -206,11 +206,22 @@ sections:
       items:
         - certificate_url: ''
           date_end: ''
+          date_start: '2024-11-10'
+          description: |2-
+            Developed an [AI application](https://www.coze.cn/s/ikd1Ta3b/) and a [R package](https://github.com/WhyLIM/DTII) for querying Drug-Target-Indication interactions, and optimized an algorithm to calculate the correlation between the three.
+
+            ![2nd BIO-OS Open Source Open Contest](bosoc2.jpg)
+          organization: ByteDance
+          organization_url: https://www.bytedance.com/en/
+          title: Second Prize in the Task Challenge of the CCF Open Source Innovation Competition and the 2nd Bio-OS Open Source Open Competition
+          url: ''
+        - certificate_url: ''
+          date_end: ''
           date_start: '2023-12-07'
           description: |2-
             Successfully collaborated in a team to replicate a complex research paper, ***ranking 11th among 131 participating teams***.
 
-            ![First BIO-OS Open Source Open Contest](fbosoc.jpg)
+            ![First BIO-OS Open Source Open Contest](bosoc.jpg)
           organization: ByteDance
           organization_url: https://www.bytedance.com/en/
           title: The 11th place in the Paper Reproduction Challenge of the First BIO-OS Open Source Open Competition

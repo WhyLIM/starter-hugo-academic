@@ -1,7 +1,7 @@
 ---
 title: "Network-based hub biomarker discovery for glaucoma"
 authors:
-- Min Li
+- admin
 - Shunming Liu
 - Shuo Ma
 - Xianwen Shang

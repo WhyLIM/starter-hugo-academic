@@ -5,7 +5,7 @@ authors:
 - Yu Huang
 - Shunming Liu
 - Shuo Ma
-- Min Li
+- admin
 - Zhuoting Zhu
 - Wei Wang
 - Xiayin Zhang
